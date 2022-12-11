@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial scale=1.0 "></mete>
+        <title>Trattoos Ink Tattoo Studio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans+Chakma&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+    <div class="text-box">
+        <h1>TRATTOOS INK TATTOO STUDIO</h1>
+        <p>TATTOO ANG PIERCING SHOP
+            <br> A WORK OF ART </p>
+        <a href="https://www.tiktok.com/@trattoosinktattoostudio?is_from_webapp=1&sender_device=pc" class="hero-btn">Visit Us to Know More</a>
+    </div>  
+
+    </section>
+
+
+<!-----about------>
+    <section class="about">
+        <h1> ABOUTS</h1>
+        <p> If you are looking for the top tattoo shop, look no further than the TRATTOOS INK TATTOO STUDIO.
+            <br> We specialized in portrait, lettering, color, cover ups and custom status, with more than seven years of experience.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Tattooing</h3>
+                <p>At Trattoos ink tattoo studio, we know that your tattoos are special and personal statements, in addition to begin beautiful images. As such, we work to offer a wide range of artistic styles that cover many of the most popular types of tattoos that our customers request. With more than seven years of industry experience, our tattoo shop goes the extra mile to provide exceptional work across all categories of tattoos. We also offer home services to our clients.</p>
+            </div>
+            <div class="course-col">
+                <h3>Piercing</h3>
+                <p>Trattoos Ink Tattoo Studio also has you covered for piercings. Our piercer is professional, experienced, and capable of handling anything you’d like to get done. We practice a high standard of cleanliness and will make sure you are comfortable and happy with the entire process.</p>
+            </div>
+            <div class="course-col">
+                <h3>Accessories</h3>
+                <p>We also sell handmade island vibe accessories like snake bone bracelet, dragon eye necklace and many more. We also make costumized carving crafts.</p>
+            </div>
+        </div>
+    </section>
+
+<!-----services----->
+
+    <section class="services">
+        <h1>SERVICES</h1>
+        <p>What we offer</p>
+
+        <div class="row">
+            <div class="services-col">
+                <img src="images/tatooing.jpg">
+                <div class="layer">
+                    <h3>Tattooing</h3>
+                </div>
+            </div>
+
+            <div class="services-col">
+                <img src="images/lipp.jpg">
+                <div class="layer">
+                    <h3>Piercing</h3>
+                </div>
+            </div>
+
+            <div class="services-col">
+                <img src="images/accer.jpg">
+                <div class="layer">
+                    <h3>Selling accessories</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+<!-------Footer------>
+
+    <section class="footer">
+        <h4>For more infos</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100064618281616"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/trattoos_ink_tattoo_studio/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@artjuareztattootv881"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>Made by Yaguel, Patino & Sinchongco</p>
+    </section>
+
+
+
+<!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+    </body>
+</html>

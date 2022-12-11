@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial scale=1.0 "></mete>
+        <title>Trattoos Ink Tattoo Studio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans+Chakma&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>ABOUT US</h1>
+
+    </section>
+
+<!-----about us content---->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            
+        </div>
+        <div class="about-col"></div>
+        
+    </div>
+</section>
+
+<!-----about us content---->
+
+<section class="about-us">
+
+    <div class="center">
+    
+        <div class="about-col">
+            <h1>ART JUAREZ</h1>
+
+            <div class="about-col">
+                <img src="images/artist.jpg">
+            </div>
+
+            <h2>The Artist</h2>
+            <p>He is the tattoo artist and the owner of Trattoos Ink Tattoo Studio. Tattoing was his hobby back then until it became his passion and his talent. <br> He stayed in Boracay,Phillipines for 8 years and honed his talent there. On 2016, <br> he built his own shop in Makati City and named it Trattos Ink from his reversed name "Art". </p>
+            <a href="https://www.facebook.com/artworkx.juarez.5" class="hero-btn red-btn">KNOW MORE ABOUT HIM</a>
+        </div>
+    
+    </div>
+</section>
+
+
+<!-------Footer------>
+
+    <section class="footer">
+        <h4>For more infos</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100064618281616"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/trattoos_ink_tattoo_studio/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@artjuareztattootv881"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>Made by Yaguel, Patino & Sinchongco</p>
+    </section>
+
+
+
+<!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+    </body>
+</html>
